@@ -62,7 +62,7 @@ public class PracticalTest02v8MainActivity extends AppCompatActivity {
         });
 
         navigateButton.setOnClickListener(view -> {
-            Intent intent = new Intent(PracticalTest02v8MainActivity.this, PracticalTest02v8MainActivity.class);
+            Intent intent = new Intent(PracticalTest02v8MainActivity.this, MainActivity2.class);
             startActivity(intent);
         });
     }
